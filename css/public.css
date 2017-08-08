@@ -21,3 +21,7 @@ body,ul,li,ol,dd,dt,dt,a {
 	background: #404867;
 	height: 100%;
 }
+.ys-right {
+	float: left;
+	width: calc(100% - 218px);
+}
