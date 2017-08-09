@@ -150,13 +150,13 @@ body,ul,li,ol,dd,dt,dt,a {
     background-color: #209fff;
 }
 /*主要内容区*/
-.leaseManagement-warrp {
+.contents-warrp {
 	width: 100%;
     height: 100vh;
     background-color: #EFEFEF;
     /*padding: 7px 0 0 22px;*/
 }
-.leaseManagement-cont {
+.contents-cont {
 	padding: 7px 0 0 22px;
 }
 .router {
