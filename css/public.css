@@ -102,21 +102,6 @@ body,ul,li,ol,dd,dt,dt,a {
 .marginr36 {
 	margin-right: 36px;
 }
-/*.margint33 {
-	margin-top: 33px;
-}*/
-/*内容*/
-.content {
-	width: 100%;
-	height: 100%;
-}
-.ys-left {
-	float: left;
-	width: 218px;
-	background: #404867;
-	height: 100%;
-	color:#7f8fa4;
-}
 /*左侧菜单栏*/
 .menu {
 	background-image:linear-gradient(-1deg, #404867 2%, #24283e 99%);
@@ -163,4 +148,87 @@ body,ul,li,ol,dd,dt,dt,a {
     height: 100%;
     float: left;
     background-color: #209fff;
+}
+/*主要内容区*/
+.leaseManagement-warrp {
+	width: 100%;
+    height: 100vh;
+    background-color: #EFEFEF;
+    /*padding: 7px 0 0 22px;*/
+}
+.leaseManagement-cont {
+	padding: 7px 0 0 22px;
+}
+.router {
+	font-size: 12px;
+}
+.router span {
+	color: rgba(128, 128, 128, 0.5);
+}
+.router span:last-child {
+	color: #209fff;
+}
+.white-warrp {
+	width: 1110px;
+	background:#ffffff;
+	border:1px solid #e6eaee;
+	border-radius: 4px;
+}
+/*企业查询*/
+.company-inquiry {
+	padding: 18px 31px;
+    margin-top: 9px;
+}
+.company-input {
+	border-radius: 4px;
+	width: 184px;
+	height: 36px;
+	outline: none;
+	border: 1px solid #dfe3e9;
+	padding-left: 14px;
+	margin-left: 10px;
+}
+.ompany-input::-webkit-input-placeholder {
+	font-size:14px;
+	color:#9fa9ba;
+}
+.ompany-input:-moz-placeholder {
+	font-size:14px;
+	color:#9fa9ba;
+}
+.ompany-input::-moz-placeholder {
+	font-size:14px;
+	color:#9fa9ba;
+}
+.ompany-input:-ms-input-placeholder {
+	font-size:14px;
+	color:#9fa9ba;
+}
+.box {
+	display: flex;
+    /*flex-wrap: wrap;*/
+    /*align-content: space-between;*/
+	margin-bottom: 17px;
+}
+.flex1 {
+	flex: 1;
+}
+.box .flex1:nth-child(2) {
+	text-align: center;
+}
+.box .flex1:nth-child(3) {
+	text-align: right;
+}
+.inquiry {
+	border-top: 1px solid #dfe3e9;
+	text-align: right;
+}
+.inquiry-btn {
+	background-image:linear-gradient(-180deg, #ffffff 3%, #e1e1e1 98%);
+	border:1px solid #ced0da;
+	border-radius:4px;
+	width:89px;
+	height:34px;
+	outline: none;
+	margin-top: 7px;
 }
