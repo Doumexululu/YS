@@ -175,7 +175,7 @@ body,ul,li,ol,dd,dt,dt,a {
 	border-radius: 4px;
 }
 /*企业查询*/
-.company-inquiry {
+.white-padding {
 	padding: 18px 31px;
     margin-top: 9px;
 }
@@ -206,8 +206,6 @@ body,ul,li,ol,dd,dt,dt,a {
 }
 .box {
 	display: flex;
-    /*flex-wrap: wrap;*/
-    /*align-content: space-between;*/
 	margin-bottom: 17px;
 }
 .flex1 {
@@ -231,4 +229,21 @@ body,ul,li,ol,dd,dt,dt,a {
 	height:34px;
 	outline: none;
 	margin-top: 7px;
+}
+.row-box {
+	display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  width: 100%;
+}
+.child-box {
+	flex: 0 0 25%;
+	margin-bottom: 20px;
+}
+.desktop-img {
+	width: 252px;
+    height: 176px;
+}
+.height-vh {
+	height: 80vh;
 }
