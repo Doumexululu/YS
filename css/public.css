@@ -247,3 +247,14 @@ body,ul,li,ol,dd,dt,dt,a {
 .height-vh {
 	height: 80vh;
 }
+/*头部消息提醒*/
+.news-warrp {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: #000000;
+	opacity:0.64;
+	z-index: 2;
+}
