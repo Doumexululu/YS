@@ -285,6 +285,9 @@ body,ul,li,ol,dd,dt,dt,a {
 }
 .bluef {
 	color: #209fff;
+	/*text-align:right;*/
+}
+.textr {
 	text-align:right;
 }
 .news-item {
@@ -353,4 +356,53 @@ body,ul,li,ol,dd,dt,dt,a {
 }
 .displayflex {
 	display: flex;
+}
+/*添加用户页面*/
+.adduser-topic {
+	padding: 30px 0;
+    text-align: center;
+    border-bottom: 1px solid #dfe3e9;
+    position: relative;
+}
+.f24 {
+	font-size: 24px;
+}
+.rightposition {
+	position: absolute;
+    left: 0;
+}
+.reply-attr {
+	margin-right: 9px;
+	font-size: 12px !important;
+}
+.adduser-cont {
+	padding: 13px 40px 30px 25px;
+	border-bottom: 1px solid #dfe3e9;
+}
+.rectangle {
+	display: block;
+	width: 14px;
+	height: 14px;
+	background:#209fff;
+	border-radius:4px;
+    margin: 4px 10px 0 0;
+}
+.marginb16 {
+	margin-bottom: 16px;
+}
+.adduser-form {
+	padding-left: 20px;
+	margin-bottom: 20px;
+}
+.space-between {
+	justify-content: space-between;
+}
+.width-reset {
+	width: 260px;
+}
+.adduser-cont .adduser-form:last-child {
+	margin-bottom: 0;
+}
+.outlinenone {
+	outline: none;
 }
