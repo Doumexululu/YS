@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<frameset rows="80,*" border="0">
-	<frame src="head.html" />
-	<frameset cols="218,*"  border="0">
-		<frame src="yewuMenu.html" />
-		<frame name="showframe" src="leaseManagement.html" />
-	</frameset>
-</frameset>
+<head>
+	<meta charset="UTF-8">
+	<title>涌时</title>
+	<!-- <link rel="stylesheet" href="../css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="../css/public.css">
+	<link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="head">
+		<div class="index-logo">
+			<img src="../images/index-logo.png" alt="涌时融租">
+		</div>
+		<div class="index-topic">
+			<div class="topic-left nav-center">
+				<ul>
+					<li class="bottom-line">桌面管理</li>
+					<li class="cur-poin">业务管理</li>
+					<li class="cur-poin">待办任务</li>
+					<li class="cur-poin">数据统计</li>
+					<li class="cur-poin">系统设置</li>
+				</ul>
+			</div>
+			<div class="topic-right">
+				<div class="user-info">
+					<i class="fa fa-bell-o f20 lineh55 cur-poin"></i>
+					<img class="user-icon cur-poin" src="../images/user-icon.png" alt="用户头像">
+					<span class="cur-poin">管理员</span>
+				</div>
+
+
+				<i class="fa fa-refresh f16"></i>
+				<span class="marginr24 cur-poin">修改密码</span>
+
+				<i class="fa fa-sign-out f16"></i>
+				<span class="cur-poin">退出</span>
+
+			</div>
+		</div>
+	</div>
+	<div class="displayflex">
+		<iframe frameborder="0" scrolling="no" border="0" class="left-nav" src="yewuMenu.html"></iframe>
+		<iframe frameborder="0" scrolling="no" border="0" class="right-cont" src="leaseManagement.html"></iframe>
+	</div>
+	<!-- <iframe frameborder="0" scrolling="no" border="0" class="left-nav" src="yewuMenu.html"></iframe>
+	<iframe frameborder="0" scrolling="no" border="0" class="right-cont" src="desktop.html"></iframe> -->
+	<!--头部消息提醒-->
+	<!-- <div class="news-warrp">
+
+	</div> -->
+</body>
+<script src="../js/jquery.min.js"></script>
+<!-- <script src="../js/head.js"></script> -->
 </html>
