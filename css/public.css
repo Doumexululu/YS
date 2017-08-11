@@ -434,7 +434,7 @@ body,ul,li,ol,dd,dt,dt,a {
 }
 .table {
 	width: 100%;
-    border-top: 1px solid #dfe3e9;
+    border: 1px solid #dfe3e9;
 	border-collapse: collapse;
 }
 .table-head {
@@ -497,3 +497,73 @@ body,ul,li,ol,dd,dt,dt,a {
 .prompt-foot .news-btn {
 	width: 70px;
 }
+/*种类管理页*/
+.no-padding {
+	padding: 0;
+}
+.species-topic {
+	padding: 24px 0px 18px 55px;
+	border-bottom: 1px solid #e6eaee;
+	position: relative;
+}
+.species-topic span {
+	font-size: 16px;
+}
+.species-topic span:nth-child(2) {
+	margin: 0 45px;
+	color: #dbdbdb;
+	/*font-size: 12px;*/
+	font-weight: 100;
+}
+.species-cont {
+	padding: 16px 47px 0 47px;
+}
+.blue-line {
+	position: absolute;
+    height: 2px;
+    width: 194px;
+    background-color: #209fff;
+    bottom: 0;
+    left: 212px;
+}
+.lineh38 {
+	line-height: 38px;
+}
+.marginl10 {
+	margin-left: 10px;
+}
+.color-grey {
+	color:#9fa9ba;
+}
+.marginb40 {
+	margin-bottom: 40px;
+}
+.table-body tr td:last-child {
+	border-right: none !important;
+}
+.table-body tr td:first-child {
+	border-left: none !important;
+}
+.table-head tr td:last-child {
+	border-right: none !important;
+}
+.table-head tr td:last-child {
+	border-left: none !important;
+}
+.table-head tr th:first-child {
+	border-left: none;
+}
+.marginb31 {
+	margin-bottom: 31px;
+}
+.species-heights {
+	height: auto;
+	padding-bottom: 19px;
+}
+.species-foot {
+	border-top: 1px solid #e9ecf0;
+	padding: 0 48px 21px 0;
+}
+/*.untop-border {
+	border-top: none !important;
+}*/
