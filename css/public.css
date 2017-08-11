@@ -567,3 +567,6 @@ body,ul,li,ol,dd,dt,dt,a {
 /*.untop-border {
 	border-top: none !important;
 }*/
+.displaynone {
+	display: none;
+}
