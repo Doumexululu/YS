@@ -169,10 +169,11 @@ body,ul,li,ol,dd,dt,dt,a {
 	color: #209fff;
 }
 .white-warrp {
-	width: 1110px;
-	background:#ffffff;
-	border:1px solid #e6eaee;
-	border-radius: 4px;
+    /* width: 1110px; */
+    background: #ffffff;
+    border: 1px solid #e6eaee;
+    border-radius: 4px;
+    margin-right: 20px;
 }
 /*企业查询*/
 .white-padding {
@@ -569,4 +570,7 @@ body,ul,li,ol,dd,dt,dt,a {
 }*/
 .displaynone {
 	display: none;
+}
+.displayblock {
+	display: block;
 }
