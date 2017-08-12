@@ -30,6 +30,10 @@ body,ul,li,ol,dd,dt,dt,a {
 	background-color: #1c96f1;
 	width: 191px;
 }
+.index-logo img {
+	width: 158px;
+	height: 40px;
+}
 .index-topic {
 	width: calc(100% - 218px);
 	height: auto;

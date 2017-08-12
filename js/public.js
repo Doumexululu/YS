@@ -18,5 +18,13 @@ $(function(){
     $(".species-topic .tab-item").eq(1).click(function(){
         $(this).siblings(".blue-line").animate({"left":"212px"});
     });
-
+    $(".topic-left ul li").click(function(){
+        // alert($(this).attr("data-src"));
+        var _src = $(this).attr("data-src");
+        $(this).parents("body").find("#nav-left").attr("src",_src);
+    });
+    // $("#left-tabsrc").click(function(){
+    //     var _src = $(this).attr("data-src");
+    //     $("#right-cont",window.top.document).attr("src",_src);
+    // });
 })
