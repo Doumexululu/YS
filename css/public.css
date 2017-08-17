@@ -237,20 +237,21 @@ body,ul,li,ol,dd,dt,dt,a {
 }
 .row-box {
 	display: flex;
-	flex-flow: row wrap;
-	align-content: flex-start;
-	width: 100%;
+     flex-flow: row wrap;
+    /* align-content: flex-start; */
+    width: 100%;
 }
 .child-box {
-	flex: 0 0 25%;
+	/*flex: 0 0 25%;*/
 	margin-bottom: 20px;
+	margin-right: 25px;
 }
 .desktop-img {
 	width: 252px;
     height: 176px;
 }
 .height-vh {
-	height: 80vh;
+	/*height: 80vh;*/
 }
 /*头部消息提醒*/
 .news-warrp {
@@ -414,7 +415,7 @@ body,ul,li,ol,dd,dt,dt,a {
 /*客户列表*/
 .clientlist-topic {
 	margin-top: 9px;
-	width: 1172px;
+	/*width: 1172px;*/
 }
 .f18 {
 	font-size: 18px;
@@ -598,9 +599,10 @@ body,ul,li,ol,dd,dt,dt,a {
 /*分页*/
 .pages-warrp {
 	margin-top: 20px;
-	width: 1172px;
+	/*width: 1172px;*/
 	display: flex;
 	justify-content: flex-end;
+	margin-right: 20px;
 }
 .pages-w {
 	border-radius:4px;
