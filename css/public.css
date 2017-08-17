@@ -578,3 +578,64 @@ body,ul,li,ol,dd,dt,dt,a {
 .displayblock {
 	display: block;
 }
+/*头部未读*/
+.un-info-warrp {
+	position: relative;
+}
+.un-infomation {
+	position: absolute;
+    display: block;
+    background: #ff4137;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    font-size: 10px;
+    top: 7px;
+    right: -5px;
+    line-height: 16px;
+    text-align: center;
+}
+/*分页*/
+.pages-warrp {
+	margin-top: 20px;
+	width: 1172px;
+	display: flex;
+	justify-content: flex-end;
+}
+.pages-w {
+	border-radius:4px;
+	width:28px;
+	height:28px;
+	line-height: 28px;
+	color:#666666;
+	opacity:0.8;
+	text-align: center;
+}
+.page-data {
+	background:#ffffff;
+	border:1px solid #d9d9d9;
+	border-radius:4px;
+	width:124px;
+	height:32px;
+	text-align: center;
+	line-height: 32px;
+	color:#666666;
+	margin: 0 25px 0 25px;
+}
+.jump-page {
+	color:#666666;
+	line-height: 32px;
+}
+.jump-page input {
+	background:#ffffff;
+	border:1px solid #d9d9d9;
+	border-radius:4px;
+	width:72px;
+	height:32px;
+	text-align: center;
+	margin: 0 12px;
+}
+.pages-active {
+	background:#1a91eb;
+	color:#ffffff;
+}

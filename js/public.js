@@ -23,8 +23,8 @@ $(function(){
         var _src = $(this).attr("data-src");
         $(this).parents("body").find("#nav-left").attr("src",_src);
     });
-    // $("#left-tabsrc").click(function(){
-    //     var _src = $(this).attr("data-src");
-    //     $("#right-cont",window.top.document).attr("src",_src);
-    // });
+    $("#left-tabsrc").click(function(){
+        var _src = $(this).attr("data-src");
+        $("#right-cont",window.top.document).attr("src",_src);
+    });
 })
